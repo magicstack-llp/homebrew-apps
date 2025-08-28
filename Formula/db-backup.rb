@@ -16,9 +16,19 @@ class DbBackup < Formula
     sha256 "27c491cc05d968d271d5a1db13e3b5a184636d9d930f148c50b038f0d0646202"
   end
 
-    resource "boto3" do
+  resource "boto3" do
     url "https://files.pythonhosted.org/packages/source/b/boto3/boto3-1.40.19.tar.gz"
     sha256 "772f259fdef6efa752c5744e140c0371593a20a0c728cce91d67b8b58d1090e7"
+  end
+
+  resource "mysql-connector-python" do
+    url "https://files.pythonhosted.org/packages/source/m/mysql_connector_python/mysql_connector_python-9.4.0.tar.gz"
+    sha256 "d111360332ae78933daf3d48ff497b70739aa292ab0017791a33e826234e743b"
+  end
+
+  resource "python-dotenv" do
+    url "https://files.pythonhosted.org/packages/source/p/python_dotenv/python_dotenv-1.1.1.tar.gz"
+    sha256 "a8a6399716257f45be6a007360200409fce5cda2661e3dec71d23dc15f6189ab"
   end
 
   def install
