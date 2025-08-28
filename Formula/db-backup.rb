@@ -1,4 +1,4 @@
-class DatabaseBackup < Formula
+class DbBackup < Formula
   include Language::Python::Virtualenv
 
   desc "A simple database backup tool"
@@ -8,6 +8,8 @@ class DatabaseBackup < Formula
   license "MIT"
 
   depends_on "python@3.11"
+
+  depends_on "mysql-client"
 
   def install
     virtualenv_install_with_resources
