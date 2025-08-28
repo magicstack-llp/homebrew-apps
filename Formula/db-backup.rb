@@ -3,8 +3,8 @@ class DbBackup < Formula
 
   desc "A simple database backup tool"
   homepage "https://github.com/magicstack-llp/db-backup"
-  url "https://github.com/magicstack-llp/db-backup/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "d8b6f802a64df197f4f94d5fc0bf8634bab85deb7f60bdf92b0c10d543d10da2"
+  url "https://github.com/magicstack-llp/db-backup/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "50627e750b0ef1ce7aafecce562364f5bad49719a56728e03321bb4a4ae1ae18"
   license "MIT"
 
   depends_on "python@3.11"
