@@ -21,6 +21,11 @@ class DbBackup < Formula
     sha256 "772f259fdef6efa752c5744e140c0371593a20a0c728cce91d67b8b58d1090e7"
   end
 
+  resource "botocore" do
+    url "https://files.pythonhosted.org/packages/source/b/botocore/botocore-1.40.19.tar.gz"
+    sha256 "becc101b3047ec4cffa6c86bab747b8312db20529ee0132fe77007092a9c9f85"
+  end
+
   resource "mysql-connector-python" do
     url "https://files.pythonhosted.org/packages/source/m/mysql_connector_python/mysql_connector_python-9.4.0.tar.gz"
     sha256 "d111360332ae78933daf3d48ff497b70739aa292ab0017791a33e826234e743b"
